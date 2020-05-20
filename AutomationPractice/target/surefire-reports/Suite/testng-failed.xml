@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.AutomationPractice.Listners.ExtentListners"/>
+  </listeners>
+  <test name="Test1(failed)" parallel="classes">
+    <classes>
+      <class name="com.AutomationTesting.TestCases.SummerDressPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyCheckBoxSelected"/>
+        </methods>
+      </class> <!-- com.AutomationTesting.TestCases.SummerDressPageTest -->
+      <class name="com.AutomationTesting.TestCases.TshirtsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyDressPageTitle"/>
+        </methods>
+      </class> <!-- com.AutomationTesting.TestCases.TshirtsPageTest -->
+      <class name="com.AutomationTesting.TestCases.DressPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyDressPageTitle"/>
+        </methods>
+      </class> <!-- com.AutomationTesting.TestCases.DressPageTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

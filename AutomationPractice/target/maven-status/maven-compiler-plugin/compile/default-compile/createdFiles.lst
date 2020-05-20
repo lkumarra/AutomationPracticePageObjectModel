@@ -1,0 +1,16 @@
+com\AutomationPractice\Actions\HomePageActions.class
+com\AutomationPractice\Actions\TshirtsPageActions.class
+com\AutomationPractice\Locators\DressPageLocators.class
+com\AutomationPractice\Utilities\TestUtil.class
+com\AutomationPractice\Actions\DressPageActions.class
+com\AutomationPractice\Actions\WomenPageActions.class
+com\AutomationPractice\Listners\ExtentListners.class
+com\AutomationPractice\Listners\ExtentManager.class
+com\AutomationPractice\Locators\SummerDressPageLocator.class
+com\AutomationPractice\Locators\WomenPageLocators.class
+com\AutomationPractice\TestBase\Constants.class
+com\AutomationPractice\TestBase\Page.class
+com\AutomationPractice\Actions\SummerDressPageActions.class
+com\AutomationPractice\Locators\HomePageLocators.class
+com\AutomationPractice\Locators\TshirtPageLocators.class
+com\AutomationPractice\Utilities\DriverManager.class

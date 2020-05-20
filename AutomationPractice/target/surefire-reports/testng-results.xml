@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" ignored="0" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="117192" started-at="2020-05-20T16:21:20Z" finished-at="2020-05-20T16:23:18Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="117192" started-at="2020-05-20T16:21:20Z" finished-at="2020-05-20T16:23:18Z">
+      <class name="com.AutomationTesting.TestCases.SummerDressPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AutomationTesting.TestCases.SummerDressPageTest@4b0d79fc]" name="setUp" is-config="true" duration-ms="53048" started-at="2020-05-20T21:52:21Z" finished-at="2020-05-20T21:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AutomationTesting.TestCases.SummerDressPageTest@4b0d79fc]" name="setUp" is-config="true" duration-ms="36945" started-at="2020-05-20T21:52:21Z" finished-at="2020-05-20T21:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySummerDressPageTitle()[pri:1, instance:com.AutomationTesting.TestCases.SummerDressPageTest@4b0d79fc]" name="verifySummerDressPageTitle" duration-ms="39" started-at="2020-05-20T21:52:58Z" finished-at="2020-05-20T21:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySummerDressPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.AutomationTesting.TestCases.SummerDressPageTest@4b0d79fc]" name="tearDown" is-config="true" duration-ms="695" started-at="2020-05-20T21:52:58Z" finished-at="2020-05-20T21:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="verifyCheckBoxSelected()[pri:2, instance:com.AutomationTesting.TestCases.SummerDressPageTest@4b0d79fc]" name="verifyCheckBoxSelected" duration-ms="1544" started-at="2020-05-20T21:53:14Z" finished-at="2020-05-20T21:53:16Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:304)
+	at org.testng.Assert.assertEquals(Assert.java:314)
+	at com.AutomationTesting.TestCases.SummerDressPageTest.verifyCheckBoxSelected(SummerDressPageTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckBoxSelected -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.AutomationTesting.TestCases.SummerDressPageTest@4b0d79fc]" name="tearDown" is-config="true" duration-ms="681" started-at="2020-05-20T21:53:17Z" finished-at="2020-05-20T21:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.AutomationTesting.TestCases.SummerDressPageTest -->
+      <class name="com.AutomationTesting.TestCases.WomenPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AutomationTesting.TestCases.WomenPageTest@55634720]" name="setUp" is-config="true" duration-ms="37819" started-at="2020-05-20T21:52:21Z" finished-at="2020-05-20T21:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyWomenPageTitle()[pri:1, instance:com.AutomationTesting.TestCases.WomenPageTest@55634720]" name="verifyWomenPageTitle" duration-ms="26" started-at="2020-05-20T21:52:59Z" finished-at="2020-05-20T21:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWomenPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.AutomationTesting.TestCases.WomenPageTest@55634720]" name="tearDown" is-config="true" duration-ms="701" started-at="2020-05-20T21:52:59Z" finished-at="2020-05-20T21:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.AutomationTesting.TestCases.WomenPageTest -->
+      <class name="com.AutomationTesting.TestCases.TshirtsPageTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.AutomationTesting.TestCases.TshirtsPageTest@428640fa]" name="setUp" is-config="true" duration-ms="60704" started-at="2020-05-20T21:51:20Z" finished-at="2020-05-20T21:52:21Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: (//a[text()='T-shirts'])[1]' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: (//a[text()='T-shirts'])[1]' (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.AutomationPractice.Utilities.TestUtil.click(TestUtil.java:51)
+	at com.AutomationPractice.Actions.HomePageActions.clickOnTshirtPageLink(HomePageActions.java:51)
+	at com.AutomationTesting.TestCases.TshirtsPageTest.setUp(TshirtsPageTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"(//a[text()='T-shirts'])[1]"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-ORI8JR52', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\LAVEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a2e4f1d6adf146002acbcba846e28015
+*** Element info: {Using=link text, value=(//a[text()='T-shirts'])[1]}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:371)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 18 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyDressPageTitle()[pri:0, instance:com.AutomationTesting.TestCases.TshirtsPageTest@428640fa]" name="verifyDressPageTitle" duration-ms="0" started-at="2020-05-20T21:52:21Z" finished-at="2020-05-20T21:52:21Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: (//a[text()='T-shirts'])[1]' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: (//a[text()='T-shirts'])[1]' (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.AutomationPractice.Utilities.TestUtil.click(TestUtil.java:51)
+	at com.AutomationPractice.Actions.HomePageActions.clickOnTshirtPageLink(HomePageActions.java:51)
+	at com.AutomationTesting.TestCases.TshirtsPageTest.setUp(TshirtsPageTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"(//a[text()='T-shirts'])[1]"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-ORI8JR52', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\LAVEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a2e4f1d6adf146002acbcba846e28015
+*** Element info: {Using=link text, value=(//a[text()='T-shirts'])[1]}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:371)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 18 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDressPageTitle -->
+      </class> <!-- com.AutomationTesting.TestCases.TshirtsPageTest -->
+      <class name="com.AutomationTesting.TestCases.DressPageTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.AutomationTesting.TestCases.DressPageTest@4c1909a3]" name="setUp" is-config="true" duration-ms="60671" started-at="2020-05-20T21:51:20Z" finished-at="2020-05-20T21:52:21Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: //a[text()='Dresses' and @class = 'sf-with-ul']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: //a[text()='Dresses' and @class = 'sf-with-ul']' (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.AutomationPractice.Utilities.TestUtil.click(TestUtil.java:51)
+	at com.AutomationPractice.Actions.HomePageActions.clickOnDresses(HomePageActions.java:42)
+	at com.AutomationTesting.TestCases.DressPageTest.setUp(DressPageTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"//a[text()='Dresses' and @class = 'sf-with-ul']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-ORI8JR52', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\LAVEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 87ee662e75a04554a4a356f1cb09103a
+*** Element info: {Using=link text, value=//a[text()='Dresses' and @class = 'sf-with-ul']}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:371)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 18 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyDressPageTitle()[pri:0, instance:com.AutomationTesting.TestCases.DressPageTest@4c1909a3]" name="verifyDressPageTitle" duration-ms="0" started-at="2020-05-20T21:52:21Z" finished-at="2020-05-20T21:52:21Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: //a[text()='Dresses' and @class = 'sf-with-ul']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: //a[text()='Dresses' and @class = 'sf-with-ul']' (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.AutomationPractice.Utilities.TestUtil.click(TestUtil.java:51)
+	at com.AutomationPractice.Actions.HomePageActions.clickOnDresses(HomePageActions.java:42)
+	at com.AutomationTesting.TestCases.DressPageTest.setUp(DressPageTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"//a[text()='Dresses' and @class = 'sf-with-ul']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-ORI8JR52', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\LAVEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 87ee662e75a04554a4a356f1cb09103a
+*** Element info: {Using=link text, value=//a[text()='Dresses' and @class = 'sf-with-ul']}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:371)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 18 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDressPageTitle -->
+      </class> <!-- com.AutomationTesting.TestCases.DressPageTest -->
+      <class name="com.AutomationTesting.TestCases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AutomationTesting.TestCases.HomePageTest@4659191b]" name="setUp" is-config="true" duration-ms="33357" started-at="2020-05-20T21:52:21Z" finished-at="2020-05-20T21:52:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AutomationTesting.TestCases.HomePageTest@4659191b]" name="setUp" is-config="true" duration-ms="51937" started-at="2020-05-20T21:52:21Z" finished-at="2020-05-20T21:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.AutomationTesting.TestCases.HomePageTest@4659191b]" name="verifyHomePageTitle" duration-ms="51" started-at="2020-05-20T21:52:54Z" finished-at="2020-05-20T21:52:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.AutomationTesting.TestCases.HomePageTest@4659191b]" name="tearDown" is-config="true" duration-ms="707" started-at="2020-05-20T21:52:55Z" finished-at="2020-05-20T21:52:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyNewsLetterWithInvalidData()[pri:2, instance:com.AutomationTesting.TestCases.HomePageTest@4659191b]" name="verifyNewsLetterWithInvalidData" duration-ms="3716" started-at="2020-05-20T21:53:13Z" finished-at="2020-05-20T21:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewsLetterWithInvalidData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.AutomationTesting.TestCases.HomePageTest@4659191b]" name="tearDown" is-config="true" duration-ms="714" started-at="2020-05-20T21:53:17Z" finished-at="2020-05-20T21:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.AutomationTesting.TestCases.HomePageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

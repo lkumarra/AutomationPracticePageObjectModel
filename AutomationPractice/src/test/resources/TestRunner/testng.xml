@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+	<listeners>
+		<listener
+			class-name="com.AutomationPractice.Listners.ExtentListners"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Test1">
+		<classes>
+			<class name="com.AutomationTesting.TestCases.HomePageTest" />
+			<class name="com.AutomationTesting.TestCases.WomenPageTest"/>
+			<class name="com.AutomationTesting.TestCases.SummerDressPageTest"/>
+			<class name="com.AutomationTesting.TestCases.DressPageTest"/>
+			<class name="com.AutomationTesting.TestCases.TshirtsPageTest"/>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
