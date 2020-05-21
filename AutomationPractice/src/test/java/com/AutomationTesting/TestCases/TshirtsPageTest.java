@@ -1,6 +1,7 @@
 package com.AutomationTesting.TestCases;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -27,6 +28,7 @@ public class TshirtsPageTest {
 		Assert.assertEquals(tshirtPage.getTshirtPageTitle(), "T-shirts - My Store");
 	}
 	
+	@AfterMethod
 	public void tearDown() {
 		Page.quitBrowser();
 	}

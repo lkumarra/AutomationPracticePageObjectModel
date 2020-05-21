@@ -1,16 +1,16 @@
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Actions\TshirtsPageActions.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Listners\ExtentListners.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Locators\DressPageLocators.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Actions\SummerDressPageActions.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\TestBase\Page.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Actions\HomePageActions.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Actions\WomenPageActions.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Locators\SummerDressPageLocator.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Locators\HomePageLocators.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Locators\TshirtPageLocators.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\TestBase\Constants.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Listners\ExtentManager.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Locators\WomenPageLocators.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Actions\DressPageActions.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Utilities\DriverManager.java
-C:\selenium\Pom\PageObjectModel-master\AutomationPractice\src\main\java\com\AutomationPractice\Utilities\TestUtil.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Locators\SummerDressPageLocator.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\TestBase\Page.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Utilities\TestUtil.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Locators\TshirtPageLocators.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Actions\DressPageActions.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Actions\SummerDressPageActions.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Locators\WomenPageLocators.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Utilities\DriverManager.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Listners\ExtentListners.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Locators\HomePageLocators.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\TestBase\Constants.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Actions\TshirtsPageActions.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Listners\ExtentManager.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Actions\WomenPageActions.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Locators\DressPageLocators.java
+C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\src\main\java\com\AutomationPractice\Actions\HomePageActions.java

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="132.176" tests="9" errors="0" skipped="2" failures="3">
+<testsuite name="TestSuite" time="4.186" tests="7" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
     <property name="java.vm.version" value="25.231-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\selenium\Pom\PageObjectModel-master\AutomationPractice"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\selenium\Pom\PageObjectModel-master\AutomationPractice"/>
+    <property name="user.dir" value="C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice"/>
     <property name="java.runtime.version" value="1.8.0_231-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\selenium\Pom\PageObjectModel-master\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1250780748807024984.tmp"/>
+    <property name="classworlds.conf" value="C:\selenium\Pom\PageObjectModel-master\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5470227615497308341.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Bitvise SSH Client;C:\Users\Lavendra rajput\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Lavendra rajput\AppData\Local\Programs\Python\Python38\;C:\Program Files (x86)\Python\Scripts\;C:\Program Files (x86)\Python\;C:\Program Files\Java\jdk-13.0.1\bin;C:\Users\Lavendra rajput\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Lavendra rajput\AppData\Local\Microsoft\WindowsApps;;E:\Eclipse\eclipse-jee-2019-09-R-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\selenium\Pom\PageObjectModel-master\AutomationPractice\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Lavendra rajput\git\AutomationPracticePageObjectModel\AutomationPractice\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,115 +60,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="setUp" classname="com.AutomationTesting.TestCases.DressPageTest" time="63.376">
-    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.linkText: //a[text()=&apos;Dresses&apos; and @class = &apos;sf-with-ul&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: //a[text()='Dresses' and @class = 'sf-with-ul']' (tried for 30 second(s) with 500 milliseconds interval)
-	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:371)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	at com.AutomationPractice.Utilities.TestUtil.click(TestUtil.java:51)
-	at com.AutomationPractice.Actions.HomePageActions.clickOnDresses(HomePageActions.java:42)
-	at com.AutomationTesting.TestCases.DressPageTest.setUp(DressPageTest.java:20)
-</failure>
-    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-May 20, 2020 9:51:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-May 20, 2020 9:51:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="setUp" classname="com.AutomationTesting.TestCases.TshirtsPageTest" time="63.381">
-    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.linkText: (//a[text()=&apos;T-shirts&apos;])[1]&apos; (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: (//a[text()='T-shirts'])[1]' (tried for 30 second(s) with 500 milliseconds interval)
-	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:371)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	at com.AutomationPractice.Utilities.TestUtil.click(TestUtil.java:51)
-	at com.AutomationPractice.Actions.HomePageActions.clickOnTshirtPageLink(HomePageActions.java:51)
-	at com.AutomationTesting.TestCases.TshirtsPageTest.setUp(TshirtsPageTest.java:22)
-</failure>
-  </testcase>
-  <testcase name="verifyDressPageTitle" classname="com.AutomationTesting.TestCases.DressPageTest" time="0">
-    <skipped/>
-    <system-err><![CDATA[java.lang.NullPointerException
-	at com.AutomationPractice.Listners.ExtentListners.onTestSkipped(ExtentListners.java:74)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1723)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1714)
-	at org.testng.internal.Invoker.registerSkippedTestResult(Invoker.java:1272)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:605)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-]]></system-err>
-  </testcase>
-  <testcase name="verifyDressPageTitle" classname="com.AutomationTesting.TestCases.TshirtsPageTest" time="0">
-    <skipped/>
-    <system-err><![CDATA[java.lang.NullPointerException
-	at com.AutomationPractice.Listners.ExtentListners.onTestSkipped(ExtentListners.java:74)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1723)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1714)
-	at org.testng.internal.Invoker.registerSkippedTestResult(Invoker.java:1272)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:605)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-]]></system-err>
-  </testcase>
-  <testcase name="verifyHomePageTitle" classname="com.AutomationTesting.TestCases.HomePageTest" time="0.052"/>
-  <testcase name="verifySummerDressPageTitle" classname="com.AutomationTesting.TestCases.SummerDressPageTest" time="0.035"/>
-  <testcase name="verifyWomenPageTitle" classname="com.AutomationTesting.TestCases.WomenPageTest" time="0.025"/>
-  <testcase name="verifyNewsLetterWithInvalidData" classname="com.AutomationTesting.TestCases.HomePageTest" time="2.602"/>
-  <testcase name="verifyCheckBoxSelected" classname="com.AutomationTesting.TestCases.SummerDressPageTest" time="2.705">
+  <testcase name="verifyDressPageTitle" classname="com.AutomationTesting.TestCases.DressPageTest" time="0.04"/>
+  <testcase name="verifyDressPageTitle" classname="com.AutomationTesting.TestCases.TshirtsPageTest" time="0.15"/>
+  <testcase name="verifyHomePageTitle" classname="com.AutomationTesting.TestCases.HomePageTest" time="0.008"/>
+  <testcase name="verifyWomenPageTitle" classname="com.AutomationTesting.TestCases.WomenPageTest" time="0.013"/>
+  <testcase name="verifySummerDressPageTitle" classname="com.AutomationTesting.TestCases.SummerDressPageTest" time="0.023"/>
+  <testcase name="verifyNewsLetterWithInvalidData" classname="com.AutomationTesting.TestCases.HomePageTest" time="0.592"/>
+  <testcase name="verifyCheckBoxSelected" classname="com.AutomationTesting.TestCases.SummerDressPageTest" time="3.36">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)

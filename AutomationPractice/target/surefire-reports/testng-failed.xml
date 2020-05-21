@@ -13,18 +13,6 @@
           <include name="verifyCheckBoxSelected"/>
         </methods>
       </class> <!-- com.AutomationTesting.TestCases.SummerDressPageTest -->
-      <class name="com.AutomationTesting.TestCases.TshirtsPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifyDressPageTitle"/>
-        </methods>
-      </class> <!-- com.AutomationTesting.TestCases.TshirtsPageTest -->
-      <class name="com.AutomationTesting.TestCases.DressPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifyDressPageTitle"/>
-        </methods>
-      </class> <!-- com.AutomationTesting.TestCases.DressPageTest -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

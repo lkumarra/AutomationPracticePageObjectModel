@@ -9,10 +9,10 @@ public class HomePageLocators {
 	@FindBy(xpath = "//a[text()='Women' and @class = 'sf-with-ul']")
 	private WebElement womenLinkLocator;
 	
-	@FindBy(xpath = "//a[text()='Dresses' and @class = 'sf-with-ul']")
+	@FindBy(xpath = "(//a[text()='Dresses' and @class = 'sf-with-ul'])[2]")
 	private WebElement dressesLocator;
 	
-	@FindBy(xpath = "(//a[text()='T-shirts'])[1]")
+	@FindBy(xpath = "(//a[text()='T-shirts'])[2]")
 	private WebElement tshirtsLinkLocator;
 	
 	@FindBy(css = "#newsletter-input")
