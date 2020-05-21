@@ -1,8 +1,6 @@
 package com.AutomationPractice.Actions;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 import com.AutomationPractice.Locators.HomePageLocators;
 import com.AutomationPractice.TestBase.Page;

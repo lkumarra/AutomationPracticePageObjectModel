@@ -4,8 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import com.AutomationPractice.Actions.DressPageActions;
 import com.AutomationPractice.Actions.HomePageActions;
 import com.AutomationPractice.Actions.TshirtsPageActions;
 import com.AutomationPractice.TestBase.Page;

@@ -1,7 +1,5 @@
 package com.AutomationPractice.TestBase;
 
-import java.time.Duration;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +16,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Page {
 
 	public static WebDriver driver;
-	public static Logger log = LogManager.getLogger(Page.class.getName());
 	public static WebDriverWait wait;
 	static WebElement dropdown;
 	public static String browser;
@@ -31,19 +28,15 @@ public class Page {
 		if (Constants.browser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			System.setProperty("webdriver.chrome.silentOutput", "true");
-			log.debug("Launching chrome");
 			driver = new ChromeDriver();
 		} else if (Constants.browser.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
-			log.debug("Launching Firefox");
 			driver = new FirefoxDriver();
 		} else if (Constants.browser.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
-			log.debug("Launching edge");
 			driver = new EdgeDriver();
 		} else if (Constants.browser.equalsIgnoreCase("ie")) {
 			WebDriverManager.iedriver().setup();
-			log.debug("Launching ie");
 			driver = new InternetExplorerDriver();
 		}
 		setDriver(driver);
